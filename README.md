@@ -8,7 +8,6 @@ Hello! This is my web development project. It is a clean, dark-mode music player
 * **Dynamic Playlist Cards:** Automatically builds beautiful album cards with images and descriptions.
 * **Full Audio Controls:** Features working Play, Pause, Next, and Previous track buttons.
 * **Clean & Organized Code:** Separates design (`/css`), logic (`/javascript`), and music tracks (`/songs`).
-* **Fast Local Memory:** Uses `songs-data.js` to load music files instantly inside your local workspace.
 
 ---
 
@@ -52,7 +51,7 @@ Follow these four simple steps to add a new playlist to your workspace:
    ```json
    {
        "title": "My Favorite Songs",
-       "description": "A collection of my favorite tracks to listen to daily."
+       "information": "A collection of my favorite tracks to listen to daily."
    }
    ```
    
