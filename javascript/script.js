@@ -223,6 +223,20 @@ async function main() {
         }
     });
 
+    currentSong.addEventListener("ended", () => {
+        let currentTrackPath = currentSong.src.split(ASSETS_FOLDER_NAME)[1].replaceAll("%20", " ");
+        let index = globalTrackList.indexOf(currentTrackPath);
+
+        if (index !== -1 && index + 1 < globalTrackList.length) {
+            playMusic(`${ASSETS_FOLDER_NAME}` + globalTrackList[index + 1]);
+        } else {
+            console.log("Playlist finished!");
+            if (typeof play !== 'undefined') {
+                play.src = "assets/Control Buttons/play-button.svg";
+            }
+        }
+    });
+
     let range = document.querySelector(".range").getElementsByTagName("input")[0]
     range.addEventListener("change", (e) => {
         currentSong.volume = parseInt(e.target.value) / 100;
