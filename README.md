@@ -1,4 +1,4 @@
-# 🎧 Soundify - Web Music Player Project
+# 🎧 SoundEro - Web Music Player Project
 
 Hello! This is my web development project. It is a clean, dark-mode music player website inspired by Spotify. I built it using simple HTML, CSS, and JavaScript.
 
