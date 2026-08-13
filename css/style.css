@@ -575,4 +575,32 @@ header {
         padding: 0px 0px;
         margin-top: 15px;
     }
+.playing-song {
+        grid-area: name;
+        height: 12vh;
+    }
+        .player {
+        grid-area: seek;
+        height: 0%;
+    }
+    .duration {
+        grid-area: duration;
+        display: flex;
+        justify-content: start;
+        padding: 4px 10px;
+        height: 12vh;
+        transform: translateY(-50px);
+    }
+    .footer-panal {
+        height: 40vh;
+    }
+
+    /* 
+    .playing-song-card {
+    border-radius: 20px;
+    width: 80%;
+    height: 98%;
+    padding: 5px 5px 5px 5px;
+    font-size: ;
+    } */
 }
