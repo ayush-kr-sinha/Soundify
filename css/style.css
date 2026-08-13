@@ -581,7 +581,7 @@ header {
     }
         .player {
         grid-area: seek;
-        height: 0%;
+        height: 30%;
     }
     .duration {
         grid-area: duration;
@@ -589,10 +589,10 @@ header {
         justify-content: start;
         padding: 4px 10px;
         height: 12vh;
-        transform: translateY(-50px);
+        transform: translateY(-32px);
     }
     .footer-panal {
-        height: 40vh;
+        height: 30vh;
     }
 
     /* 
