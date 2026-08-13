@@ -19,11 +19,6 @@ const PLAYLISTS = [
     "Retro Rewind 80s",
     "Sunrise Beats",
     "Synaptic Spark",
-    "Urban Wanderer",
-    "Velvet Grooves",
-    "Vinyl Revival",
-    "Windows Down",
-    "Y2K Nostalgia"
 ];
 
 let currentPlaylistFolder = "All Songs";
