@@ -4,7 +4,6 @@ const SUPABASE_BASE_URL =
     "https://auhgcpldpwcjldwiuocg.supabase.co/storage/v1/object/public/SoundEro";
 
 const PLAYLISTS = [
-<<<<<<< HEAD
     "All Songs",
     "Bassline Breakthrough",
     "Bedroom Melancholy",
