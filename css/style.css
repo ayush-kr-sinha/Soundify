@@ -311,7 +311,7 @@ header {
     grid-template-columns: 1fr 1fr 1fr;
     padding: 10px 20px 0px 20px;
     overflow: hidden;
-    margin-bottom: 17px;
+    margin-bottom: 0;
 }
 
 .player {
@@ -544,7 +544,7 @@ header {
     }
 
     .player-details {
-        transform: none;
+        transform: translateX(28%);
     }
 }
 
