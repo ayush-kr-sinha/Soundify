@@ -569,7 +569,7 @@ header {
 
     .playlist-cards {
         display: grid;
-        gap: 30px;
+        gap: 25px;
         padding: 0px 0px;
         margin-top: 15px;
     }
